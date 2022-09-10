@@ -41,14 +41,12 @@ function App() {
 
             <div className="bg_content rd_12 p_8 mt-16">
               Familiar with{" "}
-              <TextLoop interval={800}>
+              <TextLoop interval={1000}>
                 <span className="higthlight">Adobe Photoshop</span>
                 <span className="higthlight">Adobe Ilustrator</span>
                 <span className="higthlight">Adobe After Effects</span>
                 <span className="higthlight">Adobe Premier Pro</span>
                 <span className="higthlight">Adobe Lightroom</span>
-                {/* <span className="higthlight">Mysql</span>
-                <span className="higthlight">Flutter</span> */}
               </TextLoop>
             </div>
           </div>
@@ -96,7 +94,7 @@ function App() {
           </div>
         </div>
       </div>
-      <ParticlesBg type="thick" bg={true} />
+      <ParticlesBg type="cobweb" bg={true} />
     </div>
   );
 }
